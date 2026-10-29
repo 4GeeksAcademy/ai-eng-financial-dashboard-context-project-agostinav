@@ -4,6 +4,13 @@ Bitácora de las verificaciones realizadas en el proyecto. Añade una entrada po
 
 ## Entrada
 
+### 2026-10-29 — Reglas, skills y memory bank
+- **Archivos o áreas:** `.agents/rules/`, `.agents/skills/`, `memory-bank/`
+- **Verificación:**
+  - Comando o procedimiento: comprobar presencia de las 4 reglas, las 2 skills y los 2 documentos; validar delimitadores y campos del frontmatter YAML, coincidencia entre `name` y carpeta, whitespace final y finales de línea.
+  - Resultado: Correcto
+- **Observaciones:** No se ejecutaron tests de producto; el cambio añade únicamente documentación y personalizaciones de agente.
+
 ### AAAA-MM-DD — Alcance del cambio
 - **Archivos o áreas:**
 - **Verificación:**

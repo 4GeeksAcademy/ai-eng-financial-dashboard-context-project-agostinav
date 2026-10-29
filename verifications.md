@@ -4,6 +4,13 @@ Bitácora de las verificaciones realizadas en el proyecto. Añade una entrada po
 
 ## Entrada
 
+### 2026-10-29 — Política de claims de producto
+- **Archivos o áreas:** `memory-bank/product-claims.md`
+- **Verificación:**
+  - Comando o procedimiento: comprobar existencia y ejecutar `git diff --no-index --check /dev/null memory-bank/product-claims.md`.
+  - Resultado: Correcto
+- **Observaciones:** El comando devolvió código 1 por la diferencia esperada entre el archivo nuevo y `/dev/null`; no reportó errores de whitespace. No se ejecutaron tests de producto.
+
 ### 2026-10-29 — Reglas, skills y memory bank
 - **Archivos o áreas:** `.agents/rules/`, `.agents/skills/`, `memory-bank/`
 - **Verificación:**
